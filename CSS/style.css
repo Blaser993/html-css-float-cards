@@ -6,7 +6,6 @@
     box-sizing: border-box;
     text-decoration: none;
     font-style: normal;
-    border: 1px solid red;
 }
 
 img{
@@ -25,20 +24,50 @@ img{
     clear: both;
 }
 
+h1{
+    color: red;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+h2{
+    font-size: 18px;
+    font-variant: small-caps;
+}
+
+p{
+    margin: 4px 0;
+}
+
 
 
 /* ----------SETTAGGI EPROSNALIZZATI------------ */
 
 .header{
+    margin: 24px 0px;
     text-align: center;
 }
 
 .card{
+    max-height: 80px;
     min-width: 180px;
     float: left;
-    border: 2px solid blue;
+    background-color: rgb(0, 0, 60);
     width: 30%;
     margin-right: 5%;
+    margin-bottom: 24px;
+    color: white;
+    box-shadow: 2px 2px 10px #282828; 
+}
+
+.card address{
+    color: aqua;
+    font-size: 12px;
+}
+
+.card p{
+    font-size: 14px;
 }
 
 .row.clearflex > :nth-child(3n+3){
@@ -46,12 +75,14 @@ img{
 }
 
 .pic_profilo{
-    border: 2px solid orange;
-    width: 30%;
+    max-width: 30%;
     float: left;
 }
 
 .testo{
     float: right;
-    width: 70%;
+    /* totale 70% */
+    width: 67%;
+    padding: 3%;
+    /* totale 70% */
 }
