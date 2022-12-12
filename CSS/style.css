@@ -10,7 +10,7 @@
 }
 
 img{
-    max-height: 100%;
+    max-width: 100%;
 }
 
 .container{
@@ -34,14 +34,19 @@ img{
 }
 
 .card{
+    min-width: 180px;
+    float: left;
     border: 2px solid blue;
+    width: calc(100% / 3);
 }
 
 .pic_profilo{
-    height: 96px;
+    border: 2px solid orange;
+    width: 30%;
     float: left;
 }
 
 .testo{
     float: right;
+    width: 70%;
 }
