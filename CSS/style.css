@@ -37,7 +37,12 @@ img{
     min-width: 180px;
     float: left;
     border: 2px solid blue;
-    width: calc(100% / 3);
+    width: 30%;
+    margin-right: 5%;
+}
+
+.row.clearflex > :nth-child(3n+3){
+    margin-right: 0px;
 }
 
 .pic_profilo{
