@@ -1,21 +1,21 @@
 /* SETTAGGI PRELIMINARI */
 
 *{
-    margin: none;
-    padding: none;
-    border: 1 solid red;    
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
+    text-decoration: none;
+    font-style: normal;
+    border: 1px solid red;
 }
 
 img{
     max-width: 100%;
 }
 
-
 .container{
     max-width: 900px;
     margin: 0 auto;
-    border: 1 solid red;
 }
 
 
@@ -29,3 +29,6 @@ img{
 
 /* ----------SETTAGGI EPROSNALIZZATI------------ */
 
+.header{
+    text-align: center;
+}
